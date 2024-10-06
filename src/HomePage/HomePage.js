@@ -138,7 +138,7 @@ function HomePage() {
 
     const color = d3.scaleOrdinal()
         .domain(data.map(d => d.title))
-        .range(['#ffcd56', '#d98eff', '#8affa4', '#6dc5ff','#CC0000','#45818e','#c90076','#783f04','#d2bc14']);
+        .range(['#008080', '#FF5733', '#8affa4', '#6dc5ff','#CC0000','#45818e','#c90076','#2E8B57','#4682B4']);
 
     const pie = d3.pie()
         .value(d => d.budget);
